@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0E1014" />
+  <title>GeMax TD — Cyberpunk Tower Defense</title>
+  <meta name="description" content="GeMax TD is a cyberpunk netrunner tower defense game. Defend the subnet across hand-tuned missions, deploy a roster of defense programs, and outsmart escalating intrusions." />
+  <link rel="canonical" href="https://td.gemax.online/" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icon.png" />
+
+  <!-- OpenGraph / social -->
+  <meta property="og:title" content="GeMax TD — Cyberpunk Tower Defense" />
+  <meta property="og:description" content="Defend the subnet. Deploy the stack. A cyberpunk single-player tower defense." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://td.gemax.online/" />
+  <meta property="og:image" content="https://td.gemax.online/assets/splash.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <img src="assets/logo-mark.svg" alt="" />
+        <span>GeMax <span class="td">TD</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#faq">FAQ</a>
+        <a href="support.html">Support</a>
+        <a class="nav-cta" href="#download">Get the game</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Cyber-defense logic</span>
+          <h1>Defend the subnet.<br/><span class="accent">Deploy the stack.</span></h1>
+          <p class="lead">
+            GeMax TD is a single-player tower defense set in the netrunner grid. Plant defense programs along
+            authored paths, harden them through a tech tree of permanent upgrades, and survive intrusions
+            that get smarter every chapter.
+          </p>
+          <div class="cta-row" id="download">
+            <a class="btn btn-primary" href="#download" aria-disabled="true">
+              Coming to iOS
+              <span class="pill">Soon</span>
+            </a>
+            <a class="btn btn-secondary" href="#download" aria-disabled="true">
+              Coming to Android
+              <span class="pill">Soon</span>
+            </a>
+            <a class="btn btn-secondary" href="#features">See what's inside</a>
+          </div>
+          <p class="muted" style="margin-top:14px;font-size:0.85rem;">
+            Pre-launch. Add your email on the support page to be notified at release.
+          </p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/logo-mark.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats">
+          <div class="stat"><div class="num">Hand-tuned</div><span class="label">Authored missions &amp; waves</span></div>
+          <div class="stat"><div class="num">Deep roster</div><span class="label">Distinct defense programs</span></div>
+          <div class="stat"><div class="num">Escalating</div><span class="label">Smarter intrusions per chapter</span></div>
+          <div class="stat"><div class="num">Easy → Insane</div><span class="label">Per-match difficulty</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What's inside</span>
+          <h2>Tactical depth without the bloat</h2>
+          <p>Designed as a clean, replayable tower defense. No timers blocking play, no mandatory ads to win.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="icon">01</div>
+            <h3>Authored paths, fixed waves</h3>
+            <p>Designer-built routes you learn over runs. No procedural mush — every mission has a shape worth mastering.</p>
+          </div>
+          <div class="card">
+            <div class="icon">02</div>
+            <h3>Per-match difficulty</h3>
+            <p>Easy, Normal, Hard, Insane. Pick your slope every run. Chapters ramp on top with a soft cap so late-game stays fair.</p>
+          </div>
+          <div class="card">
+            <div class="icon">03</div>
+            <h3>Tech-tree meta-progression</h3>
+            <p>Earn shards from runs, spend them on a permanent tech tree. Effects are observable in-match — no invisible buffs.</p>
+          </div>
+          <div class="card">
+            <div class="icon">04</div>
+            <h3>Deterministic engine</h3>
+            <p>Fixed-timestep simulation with a seeded RNG. Same seed, same run — useful for daily challenges and replays.</p>
+          </div>
+          <div class="card">
+            <div class="icon">05</div>
+            <h3>Skia rendering</h3>
+            <p>GPU-accelerated 2D with glow shaders and clean vector primitives. Looks sharp on every density.</p>
+          </div>
+          <div class="card">
+            <div class="icon">06</div>
+            <h3>Plays offline</h3>
+            <p>Single-player and offline-first. Save state lives on your device. No account required to play.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gameplay split -->
+    <section id="gameplay" style="background: linear-gradient(180deg, transparent, rgba(20, 23, 29, 0.6) 30%, transparent);">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Loop</span>
+          <h2>One run, three layers</h2>
+        </div>
+
+        <div class="split">
+          <div class="panel">
+            <h3>In a mission</h3>
+            <ul>
+              <li>Tap a build cell to place a defense program</li>
+              <li>Upgrade in place — see the stat delta before you spend</li>
+              <li>Switch speed (1× / 2× / 3×) on the HUD when waves stabilize</li>
+              <li>Pause anytime; the engine clamps real time so background stalls don't punish you</li>
+              <li>Lose a life when an intrusion leaks; lose the run when lives hit zero</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Between missions</h3>
+            <ul>
+              <li>Convert run shards into permanent tech-tree nodes</li>
+              <li>Unlock new towers and tags through chapter milestones</li>
+              <li>Replay any cleared mission on a higher difficulty for more shards</li>
+              <li>Stats and selections persist across devices via local save (cloud sync planned)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Screens</span>
+          <h2>From the grid</h2>
+          <p>In-game captures. Replace the placeholders below with the latest renders before launch.</p>
+        </div>
+        <div class="shots">
+          <figure class="shot">
+            <div class="shot-frame" data-label="01 — Title screen"></div>
+            <figcaption>Title screen</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot-frame" data-label="02 — Mission in progress"></div>
+            <figcaption>Mission in progress</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot-frame" data-label="03 — Tower panel"></div>
+            <figcaption>Tower panel &amp; upgrades</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot-frame" data-label="04 — Tech tree"></div>
+            <figcaption>Tech tree</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot-frame" data-label="05 — Chapter select"></div>
+            <figcaption>Chapter select</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot-frame" data-label="06 — Wave clear"></div>
+            <figcaption>Wave clear</figcaption>
+          </figure>
+        </div>
+        <p class="muted center" style="margin-top:24px;font-size:0.85rem;">
+          Drop screenshots into <code>assets/screenshots/</code> and replace each <code>.shot-frame</code> with an <code>&lt;img&gt;</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- Monetization disclosure (App Store / Play Store transparency) -->
+    <section id="monetization">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Monetization</span>
+          <h2>How GeMax TD makes money</h2>
+          <p>Up-front: the base game is free with optional purchases and ads. Below is exactly what you'll see and what you can opt out of.</p>
+        </div>
+
+        <div class="disclosure">
+          <h3>What's purchasable</h3>
+          <ul>
+            <li><strong>Cosmetic items</strong> — alternate tower skins, HUD themes, board palettes. Pure vanity, no gameplay effect.</li>
+            <li><strong>Currency packs</strong> — one-time purchases of in-game shards used to accelerate the tech tree.</li>
+            <li><strong>Netrunner Pass (subscription)</strong> — optional monthly subscription that grants a daily shard bonus, an extra loadout slot, and removes interstitial ads. Auto-renews; cancellable anytime in your store account.</li>
+          </ul>
+          <h3>Ads</h3>
+          <ul>
+            <li><strong>Rewarded video</strong> — opt-in only. Watch a video to earn a shard bonus or a continue.</li>
+            <li><strong>Interstitial ads</strong> — shown sparingly between missions. Removed by Netrunner Pass.</li>
+            <li>No ads target children. No ads inside an active mission.</li>
+          </ul>
+          <p class="muted" style="margin-top:12px;font-size:0.9rem;">
+            Full details, refund policy pointers, and subscription terms are in the
+            <a href="terms.html">Terms of Service</a> and
+            <a href="privacy.html">Privacy Policy</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+      <div class="container" style="max-width: 820px;">
+        <div class="section-head">
+          <span class="eyebrow">FAQ</span>
+          <h2>Common questions</h2>
+        </div>
+
+        <details>
+          <summary>Is GeMax TD free?</summary>
+          <p>Yes. The base game is free to download and play. Optional in-app purchases and an optional subscription are available, and rewarded video ads are opt-in.</p>
+        </details>
+        <details>
+          <summary>Does it require an internet connection?</summary>
+          <p>No. Missions, the tech tree, and the save state run fully on-device. A connection is required only to download updates, watch rewarded ads, and verify in-app purchases.</p>
+        </details>
+        <details>
+          <summary>Will my progress sync across devices?</summary>
+          <p>At launch, save data is local. Cloud save is on the roadmap and will be opt-in.</p>
+        </details>
+        <details>
+          <summary>Are purchases pay-to-win?</summary>
+          <p>No. Currency packs only let you progress the tech tree faster — every node in that tree is reachable through normal play. Cosmetics have no gameplay effect.</p>
+        </details>
+        <details>
+          <summary>How do I cancel the Netrunner Pass subscription?</summary>
+          <p>Manage and cancel from your platform's subscription settings: <strong>iOS</strong> — Settings → Apple ID → Subscriptions. <strong>Android</strong> — Play Store → Profile → Payments &amp; subscriptions → Subscriptions. Cancellation stops the next renewal; current period continues until expiry.</p>
+        </details>
+        <details>
+          <summary>What data does the game collect?</summary>
+          <p>Crash logs, anonymous gameplay analytics, and (with consent) advertising identifiers used to serve ads. You can opt out of personalized ads in-app and at the OS level. See the <a href="privacy.html">Privacy Policy</a> for the full breakdown.</p>
+        </details>
+        <details>
+          <summary>Is it suitable for kids?</summary>
+          <p>The game is rated for a general audience but is not specifically directed at children under 13. We do not knowingly collect personal data from children. If you believe a child has created an account or made a purchase without consent, contact <a href="mailto:support@gemax.online">support@gemax.online</a>.</p>
+        </details>
+        <details>
+          <summary>I found a bug. Where do I report it?</summary>
+          <p>Email <a href="mailto:support@gemax.online">support@gemax.online</a> with your device, OS version, and a brief description. See <a href="support.html">Support</a> for what to include.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="/">
+            <img src="assets/logo-mark.svg" alt="" />
+            <span>GeMax <span class="td">TD</span></span>
+          </a>
+          <p class="muted" style="margin-top: 12px; max-width: 36ch;">
+            Cyber-defense logic. Deploy the stack. Built with React Native, Skia, and Reanimated.
+          </p>
+        </div>
+        <div>
+          <h4>Game</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gameplay">Gameplay</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="mailto:support@gemax.online">Contact</a></li>
+            <li><a href="support.html#refunds">Refunds</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html#children">Children's Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <span>© <span id="year">2026</span> GeMax TD. All rights reserved.</span>
+        <span>td.gemax.online</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
