@@ -49,8 +49,8 @@ Set these up on the `gemax.online` domain (or alias them to a real inbox) before
 The privacy policy and terms cover:
 
 - Ads (rewarded video opt-in, interstitial; ATT prompt on iOS, ad-ID controls on Android)
-- IAP (cosmetics, currency packs)
-- Subscription (Netrunner Pass — auto-renew, cancellation paths, free-trial conversion)
+- IAP (generic — specific items disclosed in-app at point of purchase)
+- Subscriptions (generic auto-renew terms, cancellation paths, free-trial conversion)
 - Children (general audience, not directed at <13)
 - GDPR / CCPA rights and contact channel
 - Refund routing (Apple / Google) plus EU right-of-withdrawal escape hatch
