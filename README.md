@@ -36,13 +36,11 @@ Source SVGs live in the game repo (`tower-gemax/assets/logo-mark.svg`, `logo.svg
 
 `index.html` has placeholder frames for six screenshots. Drop captures into `assets/screenshots/`, then in `index.html` swap each `<div class="shot-frame" data-label="...">` for `<img src="assets/screenshots/01-title.png" alt="..." />`. Recommended portrait aspect ratio is 9:19.5 (matches the existing frame). The CSS auto-hides the placeholder label once the `<img>` is present.
 
-## Email aliases referenced
+## Email alias referenced
 
-- `support@gemax.online` — general support
-- `privacy@gemax.online` — data / privacy requests
-- `legal@gemax.online` — legal questions
+- `contact@gemax.online` — all enquiries (support, privacy, legal)
 
-Set these up on the `gemax.online` domain (or alias them to a real inbox) before linking the site from app-store listings.
+Set this up on the `gemax.online` domain (or alias to a real inbox) before linking the site from app-store listings.
 
 ## App store reviewer notes
 
